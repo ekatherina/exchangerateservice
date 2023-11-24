@@ -1,0 +1,67 @@
+2023-11-24 20:42:01.866 +03:00 [INF] Starting web application
+2023-11-24 20:42:03.671 +03:00 [INF] Request GET /exchangerate  => 200
+2023-11-24 20:42:09.388 +03:00 [INF] Request GET /exchangerate ?x=1&y=-599865432 => 400
+2023-11-24 20:46:15.564 +03:00 [INF] Request GET /exchangerate  => 200
+2023-11-24 20:46:19.806 +03:00 [INF] Request GET /exchangerate ?x=1&y=-5999 => 400
+2023-11-24 20:48:41.236 +03:00 [INF] Request GET /exchangerate  => 200
+2023-11-24 20:48:47.837 +03:00 [ERR] ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.RLimitException: Координата не попала в окружность радиуса 10
+   at ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.CoordinateToDateConverter.Convert(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\CoordinateConverter\CoordinateToDateConverter.cs:line 22
+   at ExchangeRateService.Features.ExchangeRateFeature.ExchangeRateController.Get(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\ExchangeRateController.cs:line 33
+2023-11-24 20:48:47.848 +03:00 [INF] Request GET /exchangerate ?x=67 => 400
+2023-11-24 20:58:11.924 +03:00 [INF] Request GET /exchangerate  => 200
+2023-11-24 20:58:28.247 +03:00 [WRN] ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.RLimitException: Координата не попала в окружность радиуса 10
+   at ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.CoordinateToDateConverter.Convert(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\CoordinateConverter\CoordinateToDateConverter.cs:line 26
+   at ExchangeRateService.Features.ExchangeRateFeature.ExchangeRateController.Get(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\ExchangeRateController.cs:line 33
+2023-11-24 20:58:28.257 +03:00 [INF] Request GET /exchangerate ?k=9&y=35 => 400
+2023-11-24 20:59:37.180 +03:00 [INF] Request GET /exchangerate  => 200
+2023-11-24 20:59:54.223 +03:00 [INF] Request GET /exchangerate  => 200
+2023-11-24 21:00:00.888 +03:00 [INF] Request GET /exchangerate ?x=1&y=-5&r=23 => 200
+2023-11-24 21:36:07.352 +03:00 [INF] Request GET /exchangerate  => 200
+2023-11-24 21:43:34.249 +03:00 [INF] Request GET /exchangerate  => 200
+2023-11-24 21:44:19.262 +03:00 [INF] Request GET /exchangerate  => 200
+2023-11-24 21:44:55.134 +03:00 [INF] Request GET /exchangerate  => 200
+2023-11-24 18:59:04.178 +00:00 [INF] Request GET /exchangerate  => 200
+2023-11-24 18:59:04.262 +00:00 [INF] Request GET /favicon.ico  => 404
+2023-11-24 18:59:15.838 +00:00 [INF] Request GET /exchangerate ?v=3 => 200
+2023-11-24 18:59:34.170 +00:00 [INF] Request GET /exchangerate ?v=3&x=0 => 200
+2023-11-24 18:59:41.009 +00:00 [WRN] ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.RLimitException: Координата не попала в окружность радиуса 10
+   at ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.CoordinateToDateConverter.Convert(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\CoordinateConverter\CoordinateToDateConverter.cs:line 26
+   at ExchangeRateService.Features.ExchangeRateFeature.ExchangeRateController.Get(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\ExchangeRateController.cs:line 33
+2023-11-24 18:59:41.018 +00:00 [INF] Request GET /exchangerate ?v=3&x=0&y=12 => 400
+2023-11-24 18:59:48.597 +00:00 [ERR] System.Exception: Не получилось определить дату
+   at ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.CoordinateToDateConverter.Convert(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\CoordinateConverter\CoordinateToDateConverter.cs:line 47
+   at ExchangeRateService.Features.ExchangeRateFeature.ExchangeRateController.Get(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\ExchangeRateController.cs:line 33
+2023-11-24 18:59:48.609 +00:00 [INF] Request GET /exchangerate ?v=3&x=0&y=-7 => 500
+2023-11-24 19:00:20.571 +00:00 [ERR] System.Exception: Не получилось определить дату
+   at ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.CoordinateToDateConverter.Convert(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\CoordinateConverter\CoordinateToDateConverter.cs:line 47
+   at ExchangeRateService.Features.ExchangeRateFeature.ExchangeRateController.Get(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\ExchangeRateController.cs:line 33
+2023-11-24 19:00:20.579 +00:00 [INF] Request GET /exchangerate ?v=3&x=0&y=-7 => 500
+2023-11-24 19:00:22.389 +00:00 [ERR] System.Exception: Не получилось определить дату
+   at ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.CoordinateToDateConverter.Convert(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\CoordinateConverter\CoordinateToDateConverter.cs:line 47
+   at ExchangeRateService.Features.ExchangeRateFeature.ExchangeRateController.Get(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\ExchangeRateController.cs:line 33
+2023-11-24 19:00:22.398 +00:00 [INF] Request GET /exchangerate ?v=3&x=0&y=-7 => 500
+2023-11-24 19:00:44.174 +00:00 [ERR] System.Exception: Не получилось определить дату
+   at ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.CoordinateToDateConverter.Convert(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\CoordinateConverter\CoordinateToDateConverter.cs:line 47
+   at ExchangeRateService.Features.ExchangeRateFeature.ExchangeRateController.Get(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\ExchangeRateController.cs:line 33
+2023-11-24 19:00:44.188 +00:00 [INF] Request GET /exchangerate ?v=3&x=0&y=-7 => 500
+2023-11-24 19:09:19.256 +00:00 [WRN] ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.ZeroCoordinateException: Координата не может быть равна 0
+   at ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.CoordinateToDateConverter.Convert(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\CoordinateConverter\CoordinateToDateConverter.cs:line 16
+   at ExchangeRateService.Features.ExchangeRateFeature.ExchangeRateController.Get(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\ExchangeRateController.cs:line 33
+2023-11-24 19:09:19.299 +00:00 [INF] Request GET /exchangerate  => 400
+2023-11-24 19:09:19.431 +00:00 [INF] Request GET /favicon.ico  => 404
+2023-11-24 19:10:08.676 +00:00 [INF] Request GET /exchangerate ?x=1&y=-7 => 200
+2023-11-24 19:10:08.676 +00:00 [INF] Request GET /exchangerate ?x=1&y=-7 => 200
+2023-11-24 19:10:16.512 +00:00 [WRN] ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.ZeroCoordinateException: Координата не может быть равна 0
+   at ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.CoordinateToDateConverter.Convert(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\CoordinateConverter\CoordinateToDateConverter.cs:line 16
+   at ExchangeRateService.Features.ExchangeRateFeature.ExchangeRateController.Get(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\ExchangeRateController.cs:line 33
+2023-11-24 19:10:16.519 +00:00 [INF] Request GET /exchangerate ?x=0&y=-7 => 400
+2023-11-24 19:10:25.095 +00:00 [INF] Request GET /exchangerate ?x=-5&y=-7 => 200
+2023-11-24 19:11:26.561 +00:00 [WRN] ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.ZeroCoordinateException: Координата не может быть равна 0
+   at ExchangeRateService.Features.ExchangeRateFeature.CoordinateConverter.CoordinateToDateConverter.Convert(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\CoordinateConverter\CoordinateToDateConverter.cs:line 16
+   at ExchangeRateService.Features.ExchangeRateFeature.ExchangeRateController.Get(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\ExchangeRateController.cs:line 33
+2023-11-24 19:11:26.606 +00:00 [INF] Request GET /exchangerate  => 400
+2023-11-24 19:11:35.471 +00:00 [ERR] System.Exception: Exception of type 'System.Exception' was thrown.
+   at ExchangeRateService.Features.ExchangeRateFeature.ExchangeRateController.Get(Int32 x, Int32 y) in D:\PROJECTS\ExchangeRateService\ExchangeRateService\Features\ExchangeRateFeature\ExchangeRateController.cs:line 36
+2023-11-24 19:11:35.510 +00:00 [INF] Request GET /exchangerate ?x=-5&y=-7 => 500
+2023-11-24 19:14:07.890 +00:00 [INF] Request GET /exchangerate ?x=1&y=1 => 200
+2023-11-24 22:15:10.696 +03:00 [INF] Request GET /exchangerate ?x=1&y=1 => 200
